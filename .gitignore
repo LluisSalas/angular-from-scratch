@@ -4,4 +4,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-node_modules/
+node_modules
+src/**/*.js
+src/**/*.js.map
