@@ -4,7 +4,8 @@
   "description": "Angular project seed from scratch without CLI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,19 @@
   },
   "homepage": "https://github.com/LluisSalas/angular-from-scratch#readme",
   "dependencies": {
+    "@angular/common": "^7.2.11",
+    "@angular/compiler": "^7.2.11",
+    "@angular/core": "^7.2.11",
+    "@angular/platform-browser": "^7.2.11",
+    "@angular/platform-browser-dynamic": "^7.2.11",
     "core-js": "^3.0.0",
     "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0",
+    "systemjs": "^3.1.0",
     "zone.js": "^0.9.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^3.3.4000"
   }
 }
